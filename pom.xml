@@ -5,7 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
+<<<<<<< HEAD
     <artifactId>Exercise_inheritance</artifactId>
+=======
+    <artifactId>Exercies_oop_encapsulation</artifactId>
+>>>>>>> 62ec6d854dd766643d566f785d9228d268828f7d
     <version>1.0-SNAPSHOT</version>
 
     <properties>
