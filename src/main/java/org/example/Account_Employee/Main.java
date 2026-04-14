@@ -1,4 +1,4 @@
-package Account_Employee;
+package org.example.Account_Employee;
 
 public class Main {
     public static void main(String[] args) {
