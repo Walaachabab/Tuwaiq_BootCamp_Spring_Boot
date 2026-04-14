@@ -1,4 +1,4 @@
-package org.example;
+package org.example.inhertance_Day12;
 
 public class Main {
 
