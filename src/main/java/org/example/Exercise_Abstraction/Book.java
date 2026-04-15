@@ -20,6 +20,22 @@ public class Book extends Product{
     }
 
 
+    // Extra
+    @Override
+    public double getShippingCost() {
+        return 5.0;
+    }
+
+    @Override
+    public double getTax() {
+        return getPrice() * 0.15;
+    }
+
+    @Override
+    public String getDeliveryTime() {
+        return "3 to 5 business days";
+    }
+
 
 
 

@@ -20,7 +20,10 @@ public abstract class Product {
 
     public abstract double getDiscount();
 
-
+    // extra
+    public abstract double getShippingCost();
+    public abstract double getTax();
+    public abstract String getDeliveryTime();
 
 }
 

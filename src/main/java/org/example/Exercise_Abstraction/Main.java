@@ -17,7 +17,7 @@ public class Main {
 
 
 // Q2
-       System.out.println("----------------------------Q2-------------------------------");
+       System.out.print("----------------------------Q2-------------------------------");
        System.out.println("\n--- Movable Interface Exercise ---");
 
         MovablePoint point = new MovablePoint(0, 0, 5, 5);
@@ -38,6 +38,17 @@ public class Main {
         System.out.println("Final Position: " + point.toString());
 
 
+        System.out.println("\n---------- Extra ----------");
+        System.out.println("--- Book ---");
+        System.out.println("Shipping: " + myBook.getShippingCost() + " SAR");
+        System.out.println("Tax: " + myBook.getTax() + " SAR");
+        System.out.println("Delivery: " + myBook.getDeliveryTime());
+
+
+        System.out.println("\n--- Movie ---");
+        System.out.println("Shipping: " + myMovie.getShippingCost() + " SAR");
+        System.out.println("Tax: " + myMovie.getTax() + " SAR");
+        System.out.println("Delivery: " + myMovie.getDeliveryTime());
 
 
 
